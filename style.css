@@ -1,0 +1,40 @@
+.calculator{
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; 
+    border: 0.5 solid cornflowerblue;
+    width: 200px;
+    display: grid;
+    border: 1px solid black;
+}
+.display{
+    display: grid;
+    height: 50px;
+    width: 200px;
+    background-color: aqua;
+    justify-content: end;
+    align-content: end;
+    font-size: 30px;
+    
+}
+
+.keys{
+    width: 200px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    height: 200px;
+    background-color: azure;
+    border-radius: 20%;
+}
+.number{
+    border-radius: 20%;
+}
+.operator{
+    border-radius: 20%;
+    background-color: rgb(44, 137, 199);
+    color: white;
+}
+.func{
+    border-radius: 20%;
+    background-color: chocolate;
+}
